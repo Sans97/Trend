@@ -11,7 +11,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/Vennilavan12/Trend.git'
+                    url: 'https://github.com/Sans97/Trend.git'
             }
         }
         stage('Docker Build') {
